@@ -132,7 +132,18 @@
         <h2 class="our-team">Our Team</h2>
         <ul class="our-team-photo  list">
           <li class="team">
-            <img class="photo" src="./images/foto_1.jpg" alt="мужик" width="264" height="260">
+            <!-- <img
+            srcset="../images/retina/team-1@2x.jpg 2x"
+            src="../images/retina/team-1.jpg"
+            alt="a member of the team"
+            class="team-list__img"
+          /> -->
+            <img class="photo" 
+            srcset="./images/retina-adaptive/foto_1@2x.jpg 2x"
+            src="./images/foto_1.jpg" 
+            alt="мужик" 
+            width="264" 
+            height="260">
             <div class="name-and-work">
               <h3 class="name-the-team">Mark Guerrero</h3>
               <p class="tape-of-work">Product Designer</p>
@@ -173,7 +184,12 @@
 
           </li>
           <li class=" team">
-            <img class="photo" src="./images/foto_2.jpg" alt="мужик" width="264" height="260">
+            <img class="photo"
+            srcset="./images/retina-adaptive/foto_2@2x.jpg 2x"
+            src="./images/foto_2.jpg" 
+            alt="мужик" 
+            width="264"
+             height="260">
             <div class="name-and-work">
               <h3 class="name-the-team">Tom Ford</h3>
               <p class="tape-of-work">Frontend Developer</p>
@@ -212,7 +228,9 @@
             </div>
           </li>
           <li class="team">
-            <img class="photo" src="./images/foto_3.jpg" alt="дівчина" width="264" height="260">
+            <img class="photo"
+            srcset="./images/retina-adaptive/foto_3@2x.jpg 2x"
+            src="./images/foto_3.jpg" alt="дівчина" width="264" height="260">
             <div class="name-and-work">
               <h3 class="name-the-team">Camila Garcia</h3>
               <p class="tape-of-work">Marketing</p>
@@ -251,7 +269,9 @@
             </div>
           </li>
           <li class="team">
-            <img class="photo" src="./images/foto_4.jpg" alt="мужик" width="264" height="260">
+            <img class="photo"
+            srcset="./images/retina-adaptive/foto_4@2x.jpg 2x"
+            src="./images/foto_4.jpg" alt="мужик" width="264" height="260">
             <div class="name-and-work">
               <h3 class="name-the-team">Daniel Wilson</h3>
               <p class="tape-of-work">UI Designer</p>
@@ -309,6 +329,43 @@
 
           <li class="all-products">
             <div class="position">
+              <!-- <picture>
+                <source
+                  srcset="
+                    ../images/retina-w/img-desktop.jpg    1x,
+                    ../images/retina-w/img-desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+        
+                <source
+                  srcset="
+                    ../images/retina-w/img-tablet.jpg    1x,
+                    ../images/retina-w/img-tablet@2x.jpg 2x
+                  "
+                  media="(min-width: 768px)"
+                />
+        
+                <source
+                  srcset="
+                    ../images/retina-w/img-mobile.jpg    1x,
+                    ../images/retina-w/img-mobile@2x.jpg 2x
+                  "
+                  media="(max-width: 767px)"
+                />
+        
+                <img src="../images/retina-w/img-mobile.jpg" alt="retina image" />
+              </picture> -->
+              <picture>
+                 <source
+                  srcset="
+                    ../images/retina-w/img-desktop.jpg    1x,
+                    ../images/retina-w/img-desktop@2x.jpg 2x
+                  "
+                  media="(min-width: 1200px)"
+                />
+                <img class="photo-product" src="./images/portfolio_img_1.jpg" alt="bank-app" width="360" height="300">
+              </picture>
               <img class="photo-product" src="./images/portfolio_img_1.jpg" alt="bank-app" width="360" height="300">
               <p class="owerlay-part">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie
                 Tracker App · Exotic
