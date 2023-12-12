@@ -760,13 +760,191 @@ body {
     text-transform: capitalize;
     margin-bottom: 72px;
   }
+  .listed {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* gap: 24px; */
+    row-gap: 48px;
+    padding-left: 0;
+  }
+  .owerlay-part {
+    display: none;
+  }
 
+   .first-part {
+    
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+  }
+  .title-product {
+    color: var(--NAVY-BLUE, #2E2F42);
+    
+    font-size: 20px;
+    
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
 
+    margin-bottom: 8px;
+  }
 
+  .text-product {
+    color: var(--SLATE, #434455);
 
+    
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+  }
 
 
  /*---------------/Mobile четвертий сектор------------------*/
+
+
+ /* --------------------Mobile footer-------------------- */
+
+ .land {
+    background-color: #2e2f42;
+    padding: 96px 0;
+  }
+
+  .logo-and-paragraph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logoin {
+    text-align: center;
+    color: var(--IRIS, #4D5AE5);
+    font-family: Raleway;
+    font-size: 18px;
+   
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    margin-bottom: 17.5px;
+
+  }
+  .botton-other-name {
+    color: var(--CLOUD, #F4F4FD);
+  }
+  .text-of-land {
+    color: var(--CLOUD, #F4F4FD);
+
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 72px;
+  }
+
+  .futer-media {
+    text-align: center;
+    color: #FFF;
+
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+  }
+
+  .group-sotial-icons {
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    margin-bottom: 72px;
+  }
+  .social-icon {
+    width: 40px;
+    height: 40px;
+  }
+
+  .sicial-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  .footer-email-form-text {
+    color: var(--WHITE, #FFF);
+    
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    text-align: center;
+    margin-bottom: 16px;
+  }
+  .footer-email-input {
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
+    width: 264px;
+    height: 40px;
+    color: #ffffff;
+
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+    letter-spacing: 0.04em;
+
+    padding-left: 16px;
+   
+
+    background-color: transparent;
+
+    outline: 0px solid transparent;
+
+  }
+
+  .footer-email-input::placeholder {
+   color: #ffffff;
+  }
+
+
+  .footer-submit-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 8px 24px;
+    min-width: 165px;
+    height: 40px;
+    background-color: #4D5AE5; 
+    border-radius: 4px;
+    border: none;
+
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
+  }
+
+
+  .footer-input-btn-icon {
+    margin-left: 16px;
+  }
+
+
+ /* --------------------/Mobile footer-------------------- */
 }
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
@@ -781,10 +959,10 @@ body {
 }
 
 
-/* ---------------/Mobile styles------------------ */
+/* ------------------------/Mobile styles------------------ */
 
-/* -------------------Tablet styles--------------------------- */
-
+/* -----------------------Tablet styles--------------------------- */
+/* -----------------------Tablet header------------------------------ */
   @media screen and (min-width: 768px) {
     .container {
         max-width: 766px;
