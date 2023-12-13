@@ -146,6 +146,10 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+
+    width: 100%;
+    height: 100%;
+
   }
 
   .mobile-menu-close-btn {
@@ -162,6 +166,9 @@ body {
 
     stroke: rgba(46, 47, 66, 1);
 
+  }
+  .mobile-menu-navigation {
+    margin-bottom: auto;
   }
   .mobile-menu-item {
     margin-bottom: 40px;
@@ -194,7 +201,7 @@ body {
     color: var(--IRIS, #4D5AE5);
 
     font-size: 20px;
-
+    font-style: normal;
     font-weight: 500;
     line-height: 1.20;
     letter-spacing: 0.02em;
@@ -893,7 +900,7 @@ body {
     border-radius: 4px;
     border: 1px solid #FFF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15); 
-    width: 264px;
+    width: 288px;
     height: 40px;
     color: #ffffff;
 
@@ -960,7 +967,7 @@ body {
     background-image:  linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
-      ),url('../images/retina/mobile-bg@2x.jpg');
+      ),url('../images/retina-adaptive/mobile-bg@2x.jpg');
   }
 }
 
@@ -1056,6 +1063,7 @@ body {
       .link-contact {
         color: #434455;
         font-family: "Roboto", sans-serif;
+        font-size: 12px;
         font-style: normal;
         font-weight: 400;
         line-height: 1.5; /* 150% */
@@ -1168,9 +1176,8 @@ body {
     background-color: #f4f4fd;
     padding: 96px 0;
   }
-  .folks .container {
-    padding-left: 108px;
-    padding-right: 108px;
+  .folks-container {
+    width: 584px;
   }
   .our-team {
     color: #2e2f42;
@@ -1335,7 +1342,7 @@ body {
   .last-land {
     display: flex;
     flex-wrap: wrap;
-    padding-left: 108px;
+    width: 584px;
     
   }
   .logoin {
