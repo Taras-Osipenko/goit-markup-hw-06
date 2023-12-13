@@ -986,7 +986,7 @@ body {
     }
     .main-contact-info {
         display: flex;
-        flex-direction: column;
+        /* flex-direction: column; */
        justify-content: space-between;
     }
 
@@ -1836,11 +1836,26 @@ body {
 /* -----------------------Desktop styles------------------------ */
 
   @media screen and (min-width: 1158px) {
-    .container {
-        max-width: 1158px;
+    .main-header {
+        border-bottom: 1px solid #e7e9fc;
+        box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+          0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+      }
       
-     }
-     .main-navigation {
+      .page-header-cont {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .container {
+        width: 1158px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+      }
+      
+      .main-navigation {
         align-items: center;
         display: flex;
       }
@@ -2127,7 +2142,12 @@ body {
       .tape-of-work {
         color: #434455;
         text-align: center;
-       
+        text-align: center;
+      
+        /* Body */
+        font-family: "Roboto", sans-serif;
+        font-size: 16px;
+        font-style: normal;
         font-weight: 400;
         line-height: 1.5; /* 150% */
         letter-spacing: 0.02em;
@@ -2773,9 +2793,20 @@ body {
       background-color: var(--OCEAN, #404BBF);
     } 
     
-         
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     
     /* -------------/modal window-------------------- */
+    
   }
 
   @media screen and (min-resolution: 192dpi) and (min-width:1158px),
